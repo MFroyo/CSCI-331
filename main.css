@@ -1,0 +1,58 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 { 
+    text-align: center;
+    color: rgb(0, 87, 87);
+}
+
+h2 {
+    text-align: center ;
+    padding: .25em 0;
+    background: yellow;
+}
+
+h5 {
+    padding: .25em 0;
+    text-decoration: bold;;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    align-content: left;
+}
+
+.row:after {
+    content: "";
+    display: table;
+}
+
+.column_title {
+    font-size: medium;
+    font-weight: 700;
+}
+
+.cell_highlight {
+    color: white;
+    background-color: rgb(39, 206, 173);
+
+}
+
+th {
+    font-weight: 700;
+}
+
+table, tr, th, td {
+    font-size: small;
+    text-align: center;
+    border: solid;
+    border-width: 1px;
+    border-collapse: collapse;
+    border-color: black;
+    padding-block: 5px;
+    padding-inline: 3px;
+}
+
+  
