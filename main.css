@@ -15,16 +15,13 @@ h1 {
 h2 {
     padding: 0%;
     background: yellow;
+    font-weight: 700;
+    padding: .25em;
 }
 
 h1, h2 {
     text-align: center;
     font-weight: 700;
-}
-
-h2, h5 {
-    font-weight: 700;
-    padding: .25em;
 }
 
 #github {
