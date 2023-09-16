@@ -16,8 +16,7 @@ function isStrongPassword(password){
     }
 
     // Substring Check
-    lowerCase = password.toLowerCase(); //Sets to lowercase to check for password in any way, except for if there were numbers instead of letters
-    if (lowerCase.indexOf("password") != -1){
+    if (password.indexOf("password") != -1){
         invalid = true;
     }
 
