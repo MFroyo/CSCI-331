@@ -4,7 +4,7 @@ function isStrongPassword(password){
 
     // Length Check
     if (password.length < 8){
-        console.log("Password is too short :(");
+        console.log("No Good. Password must be at least 8 characters long.");
         return false;
     }
 
@@ -24,13 +24,13 @@ function isStrongPassword(password){
 
     //Console Log Reason
     if (number == false){
-        console.log("Password Requires 1 Number");
+        console.log("No Good. Password must contain at least one number.");
         return false;
     } else if (invalid == true){
-        console.log("'password' is not able to be in your password");
+        console.log("No Good. Password cannot contain the word 'password'.");
         return false;
     } else {
-        console.log("Welcome, user!");
+        console.log("Good password!");
         return true;
     }
 
